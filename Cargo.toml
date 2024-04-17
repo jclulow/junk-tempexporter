@@ -1,0 +1,15 @@
+[package]
+name = "tempexporter"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+dropshot = "0.10"
+getopts = "0.2"
+hyper = "0.14"
+schemars = { version = "0.8", features = ["chrono", "uuid"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+slog = "2.7"
+tokio = { version = "1", features = ["full"] }
