@@ -196,6 +196,8 @@ async fn metrics(
                 "acurite-tower-00005019-c" => "garage-door",
                 "acurite-tower-00007276-b" => "interior-door",
                 "acurite-tower-00011771-a" => "machine-room",
+                "acurite-tower-00011894-a" => "outside-awning",
+                "acurite-tower-00003109-a" => "conference-east",
                 _ => {
                     warn!(log, "new temperature sensor? {id:?} -> {r:?}");
                     continue;
